@@ -1,0 +1,47 @@
+Folder PATH listing for volume New Volume
+Volume serial number is 40A8-CD41
+E:.
+¦   .env
+¦   count_file_tokens.py
+¦   main.py
+¦   math_assistant.py
+¦   OxBotAdvisorPythonConsole.pyproj
+¦   OxBotAdvisorPythonConsole.pyproj.user
+¦   oxbot_assistant.py
+¦   reduce_listing_jsonl.py
+¦   tt.tt
+¦   __init__.py
+¦   
++---assets
+¦       assistants.json
+¦       assistants.xml
+¦       geo_flat_listing_master.json
+¦       geo_flat_listing_min_jsonl.json
+¦       geo_flat_listing_test_min_jsonl.json
+¦       listing_master.json
+¦       oxbot_logo.png
+¦       
++---ox_svc
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---config
+¦   ¦       assistant_manager.py
+¦   ¦       config_manager.py
+¦   ¦       
+¦   +---openai
+¦   ¦   ¦   assistant_client.py
+¦   ¦   ¦   file_manager.py
+¦   ¦   ¦   __init__.py
+¦   ¦   ¦   
+¦   ¦   +---__pycache__
+¦   ¦           __init__.cpython-311.pyc
+¦   ¦           
+¦   +---__pycache__
+¦           config_manager.cpython-311.pyc
+¦           __init__.cpython-311.pyc
+¦           
++---__pycache__
+        count_file_tokens.cpython-311.pyc
+        openai_assistant_client.cpython-311.pyc
+        reduce_listing_jsonl.cpython-311.pyc
+        
