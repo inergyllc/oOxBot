@@ -49,17 +49,12 @@ function Remove-OldPyModule {
     )
 
     # Get list of outdated Python packages
-    $outdatedPackages = pip list --outdated --format=freeze | Where-Object { $_ -match "^$moduleName==" }
+    $outdatedPackages = pip list --outdated | Where-Object { $_.name -eq $moduleName }
 
     foreach ($package in $outdatedPackages) {
-        # Extract the package name and version
-        $parts = $package -split "=="
-        $name = $parts[0]
-        $version = $parts[1]
-
-        # Uninstall the old version
-        pip uninstall -y $name
-        Write-Host "Removed $name version $version"
+        # Uninstall the package
+        pip uninstall -y $package.name
+        Write-Host "Removed outdated version of $package.name"
     }
 }
 
