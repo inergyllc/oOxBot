@@ -1,6 +1,8 @@
 import json
 import openpyxl
 import re
+import os
+import datetime
 from openpyxl.utils import get_column_letter
 
 # Assuming the file path as given
@@ -11,6 +13,23 @@ def to_snake_case(name):
     s1 = re.sub('(.)([A-Z][a-z]+)', r'\1_\2', name)
     return re.sub('([a-z0-9])([A-Z])', r'\1_\2', s1).lower()
 
+# Generate output file path with timestamping
+def generate_output_file_path(original_file_path, new_folder=None):
+    base_folder = new_folder if new_folder else os.path.dirname(original_file_path)
+    base_name = os.path.basename(original_file_path)
+    name_part, ext_part = os.path.splitext(base_name)
+    
+    # Ensure the assistant directory exists
+    timestamp_folder = os.path.join(base_folder, 'assistant')
+    if not os.path.exists(timestamp_folder):
+        os.makedirs(timestamp_folder)
+    
+    # Generate timestamped file name
+    timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+    new_file_name = f"{name_part}_{timestamp}.xlsx"
+    new_file_path = os.path.join(timestamp_folder, new_file_name)
+    
+    return new_file_path
 
 class GeocodeManager:
     def __init__(self, geocode_data, branch_counter):
@@ -78,14 +97,39 @@ class ListingManager:
     def __init__(self, listing_data, excluded_fields=None):
         self.listing = listing_data
         self.excluded_fields = excluded_fields or []
+        self.field_fns = [ 
+            {
+                'field': 'logo', 
+                'type': 'contains', 
+                'checkfor': 'generic', 
+            },
+            {
+                'field': 'website_url', 
+                'type': 'contains', 
+                'checkfor': 'unknown-company-website.html', 
+            }
+        ]
+
+    def process_contains_field(self, value, checkfor):
+        if checkfor in value:
+            return None
+        else:
+            return value
 
     def process(self):
         flat_data = {}
         for key, value in self.listing.items():
             key = to_snake_case(key)
 
+            # Exclude fields as needed
             if key in self.excluded_fields:
                 continue
+
+            # Check if the field has a special processing rule
+            for field_fn in self.field_fns:
+                if key == field_fn['field'] and field_fn['type'] == 'contains':
+                    # Process field and update value if conditions are met
+                    value = self.process_contains_field(value, field_fn['checkfor'])
 
             if key == 'branches':
                 branches_manager = BranchesManager(value)
@@ -103,6 +147,7 @@ class ListingsToExcel:
         self.excluded_fields = excluded_fields or []
         self.workbook = openpyxl.Workbook()
         self.sheet = self.workbook.active
+
 
     def process_listings(self):
         with open(self.filename, 'r') as file:
