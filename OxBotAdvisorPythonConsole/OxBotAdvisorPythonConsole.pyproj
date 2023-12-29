@@ -21,19 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ox_svc\openai\assistant_client.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="oxbot_assistant.py" />
     <Compile Include="math_assistant.py" />
     <Compile Include="count_file_tokens.py" />
     <Compile Include="main.py" />
-    <Compile Include="ox_svc\openai\assistant_manager.py" />
-    <Compile Include="ox_svc\config_manager.py" />
-    <Compile Include="ox_svc\openai\file_manager.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="ox_svc\__init__.py" />
     <Compile Include="reduce_listing_jsonl.py" />
     <Compile Include="__init__.py">
       <SubType>Code</SubType>
@@ -51,8 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="assets\" />
-    <Folder Include="ox_svc\" />
-    <Folder Include="ox_svc\openai\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

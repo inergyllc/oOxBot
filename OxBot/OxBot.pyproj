@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2c2afa6c-232d-43e2-9638-49b0a94bd40d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>OxBot.py</StartupFile>
+    <StartupFile>json_to_excel_manager.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,28 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="json_to_excel_manager.py" />
     <Compile Include="OxBot.py" />
+    <Compile Include="ox_svc\config_svc\assistant_manager.py" />
+    <Compile Include="ox_svc\config_svc\config_manager.py" />
+    <Compile Include="ox_svc\config_svc\__init__.py" />
+    <Compile Include="ox_svc\files_svc\listings_manager.py" />
+    <Compile Include="ox_svc\files_svc\__init__.py" />
+    <Compile Include="ox_svc\openai_svc\assistant_client.py" />
+    <Compile Include="ox_svc\openai_svc\file_manager.py" />
+    <Compile Include="ox_svc\openai_svc\__init__.py" />
+    <Compile Include="ox_svc\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\" />
+    <Folder Include="ox_svc\" />
+    <Folder Include="ox_svc\config_svc\" />
+    <Folder Include="ox_svc\files_svc\" />
+    <Folder Include="ox_svc\openai_svc\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\listing_master_test_mirror.json" />
+    <Content Include="ox_svc\tt.tt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

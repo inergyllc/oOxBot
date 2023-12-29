@@ -1,98 +1,97 @@
 Folder PATH listing for volume New Volume
 Volume serial number is 40A8-CD41
 E:.
-¦   OxBot-Advisort-Setup.txt
-¦   tt.tt
-¦   
-+---OxBotAdvisorConsole
-¦   ¦   OxBotAdvisorConsole.csproj
-¦   ¦   Program.cs
-¦   ¦   
-¦   +---bin
-¦   ¦   +---Debug
-¦   ¦       +---net7.0
-¦   ¦               Newtonsoft.Json.dll
-¦   ¦               Newtonsoft.Json.Schema.dll
-¦   ¦               OxBotAdvisorConsole.deps.json
-¦   ¦               OxBotAdvisorConsole.dll
-¦   ¦               OxBotAdvisorConsole.exe
-¦   ¦               OxBotAdvisorConsole.pdb
-¦   ¦               OxBotAdvisorConsole.runtimeconfig.json
-¦   ¦               
-¦   +---obj
-¦       ¦   OxBotAdvisorConsole.csproj.nuget.dgspec.json
-¦       ¦   OxBotAdvisorConsole.csproj.nuget.g.props
-¦       ¦   OxBotAdvisorConsole.csproj.nuget.g.targets
-¦       ¦   project.assets.json
-¦       ¦   project.nuget.cache
-¦       ¦   
-¦       +---Debug
-¦           +---net7.0
-¦               ¦   .NETCoreApp,Version=v7.0.AssemblyAttributes.cs
-¦               ¦   apphost.exe
-¦               ¦   OxBotAdvisorConsole.AssemblyInfo.cs
-¦               ¦   OxBotAdvisorConsole.AssemblyInfoInputs.cache
-¦               ¦   OxBotAdvisorConsole.assets.cache
-¦               ¦   OxBotAdvisorConsole.csproj.AssemblyReference.cache
-¦               ¦   OxBotAdvisorConsole.csproj.BuildWithSkipAnalyzers
-¦               ¦   OxBotAdvisorConsole.csproj.CopyComplete
-¦               ¦   OxBotAdvisorConsole.csproj.CoreCompileInputs.cache
-¦               ¦   OxBotAdvisorConsole.csproj.FileListAbsolute.txt
-¦               ¦   OxBotAdvisorConsole.dll
-¦               ¦   OxBotAdvisorConsole.GeneratedMSBuildEditorConfig.editorconfig
-¦               ¦   OxBotAdvisorConsole.genruntimeconfig.cache
-¦               ¦   OxBotAdvisorConsole.GlobalUsings.g.cs
-¦               ¦   OxBotAdvisorConsole.pdb
-¦               ¦   
-¦               +---ref
-¦               ¦       OxBotAdvisorConsole.dll
-¦               ¦       
-¦               +---refint
-¦                       OxBotAdvisorConsole.dll
-¦                       
+Âª   .gitignore
+Âª   LICENSE
+Âª   OxBot-Advisort-Setup.txt
+Âª   README.md
+Âª   tt.tt
+Âª   
++---OxBot
+Âª       OxBot.py
+Âª       OxBot.pyproj
+Âª       
 +---OxBotAdvisorPythonConsole
-¦   ¦   .env
-¦   ¦   count_file_tokens.py
-¦   ¦   main.py
-¦   ¦   math_assistant.py
-¦   ¦   OxBotAdvisorPythonConsole.pyproj
-¦   ¦   OxBotAdvisorPythonConsole.pyproj.user
-¦   ¦   oxbot_assistant.py
-¦   ¦   reduce_listing_jsonl.py
-¦   ¦   tt.tt
-¦   ¦   __init__.py
-¦   ¦   
-¦   +---assets
-¦   ¦       assistants.json
-¦   ¦       assistants.xml
-¦   ¦       geo_flat_listing_master.json
-¦   ¦       geo_flat_listing_min_jsonl.json
-¦   ¦       geo_flat_listing_test_min_jsonl.json
-¦   ¦       listing_master.json
-¦   ¦       oxbot_logo.png
-¦   ¦       
-¦   +---ox_svc
-¦   ¦   ¦   __init__.py
-¦   ¦   ¦   
-¦   ¦   +---config
-¦   ¦   ¦       assistant_manager.py
-¦   ¦   ¦       config_manager.py
-¦   ¦   ¦       
-¦   ¦   +---openai
-¦   ¦   ¦   ¦   assistant_client.py
-¦   ¦   ¦   ¦   file_manager.py
-¦   ¦   ¦   ¦   __init__.py
-¦   ¦   ¦   ¦   
-¦   ¦   ¦   +---__pycache__
-¦   ¦   ¦           __init__.cpython-311.pyc
-¦   ¦   ¦           
-¦   ¦   +---__pycache__
-¦   ¦           config_manager.cpython-311.pyc
-¦   ¦           __init__.cpython-311.pyc
-¦   ¦           
-¦   +---__pycache__
-¦           count_file_tokens.cpython-311.pyc
-¦           openai_assistant_client.cpython-311.pyc
-¦           reduce_listing_jsonl.cpython-311.pyc
-¦           
+Âª   Âª   .env
+Âª   Âª   count_file_tokens.py
+Âª   Âª   main.py
+Âª   Âª   math_assistant.py
+Âª   Âª   OxBotAdvisorPythonConsole.pyproj
+Âª   Âª   OxBotAdvisorPythonConsole.pyproj.user
+Âª   Âª   oxbot_assistant.py
+Âª   Âª   reduce_listing_jsonl.py
+Âª   Âª   tt.tt
+Âª   Âª   __init__.py
+Âª   Âª   
+Âª   +---assets
+Âª   Âª       assistants.json
+Âª   Âª       assistants.xml
+Âª   Âª       geo_flat_listing_master.json
+Âª   Âª       geo_flat_listing_min_jsonl.json
+Âª   Âª       geo_flat_listing_test_min_jsonl.json
+Âª   Âª       listing_master.json
+Âª   Âª       oxbot_logo.png
+Âª   Âª       
+Âª   +---__pycache__
+Âª           count_file_tokens.cpython-311.pyc
+Âª           openai_assistant_client.cpython-311.pyc
+Âª           reduce_listing_jsonl.cpython-311.pyc
+Âª           
 +---ox_svc
+    Âª   build_and_install.ps1
+    Âª   monitor_and_build.py
+    Âª   ox_svc.pyproj
+    Âª   ox_svc.pyproj.user
+    Âª   setup.py
+    Âª   tt.tt
+    Âª   __init__.py
+    Âª   
+    +---.vs
+    Âª   +---ox_svc
+    Âª       +---FileContentIndex
+    Âª               4c046cd6-d873-4133-bfb0-4c0f7b6b1f53.vsidx
+    Âª               
+    +---build
+    Âª   +---bdist.win-amd64
+    Âª   +---lib
+    Âª       +---config
+    Âª       Âª       assistant_manager.py
+    Âª       Âª       config_manager.py
+    Âª       Âª       __init__.py
+    Âª       Âª       
+    Âª       +---files
+    Âª       Âª       listings_manager.py
+    Âª       Âª       __init__.py
+    Âª       Âª       
+    Âª       +---openai
+    Âª               assistant_client.py
+    Âª               file_manager.py
+    Âª               __init__.py
+    Âª               
+    +---config
+    Âª       assistant_manager.py
+    Âª       config_manager.py
+    Âª       __init__.py
+    Âª       
+    +---dist
+    Âª       ox_svc-0.3.4-py3-none-any.whl
+    Âª       ox_svc-0.3.4.tar.gz
+    Âª       
+    +---files
+    Âª       listings_manager.py
+    Âª       __init__.py
+    Âª       
+    +---openai
+    Âª   Âª   assistant_client.py
+    Âª   Âª   file_manager.py
+    Âª   Âª   __init__.py
+    Âª   Âª   
+    Âª   +---__pycache__
+    Âª           __init__.cpython-311.pyc
+    Âª           
+    +---ox_svc.egg-info
+            dependency_links.txt
+            PKG-INFO
+            SOURCES.txt
+            top_level.txt
+            
