@@ -1,0 +1,12 @@
+E:\oxai\src\OxBot\OxBotSvc\obj\Debug\net7.0\OxBotSvc.csproj.AssemblyReference.cache
+E:\oxai\src\OxBot\OxBotSvc\obj\Debug\net7.0\OxBotSvc.GeneratedMSBuildEditorConfig.editorconfig
+E:\oxai\src\OxBot\OxBotSvc\obj\Debug\net7.0\OxBotSvc.AssemblyInfoInputs.cache
+E:\oxai\src\OxBot\OxBotSvc\obj\Debug\net7.0\OxBotSvc.AssemblyInfo.cs
+E:\oxai\src\OxBot\OxBotSvc\obj\Debug\net7.0\OxBotSvc.csproj.CoreCompileInputs.cache
+E:\oxai\src\OxBot\OxBotSvc\bin\Debug\net7.0\OxBotSvc.deps.json
+E:\oxai\src\OxBot\OxBotSvc\bin\Debug\net7.0\OxBotSvc.dll
+E:\oxai\src\OxBot\OxBotSvc\bin\Debug\net7.0\OxBotSvc.pdb
+E:\oxai\src\OxBot\OxBotSvc\obj\Debug\net7.0\OxBotSvc.dll
+E:\oxai\src\OxBot\OxBotSvc\obj\Debug\net7.0\refint\OxBotSvc.dll
+E:\oxai\src\OxBot\OxBotSvc\obj\Debug\net7.0\OxBotSvc.pdb
+E:\oxai\src\OxBot\OxBotSvc\obj\Debug\net7.0\ref\OxBotSvc.dll

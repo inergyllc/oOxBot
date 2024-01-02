@@ -9,7 +9,6 @@
       "JsonToExcel/1.0.0": {
         "dependencies": {
           "EPPlus": "7.0.5",
-          "JsonPath": "1.0.6",
           "Newtonsoft.Json": "13.0.3",
           "Newtonsoft.Json.Schema": "3.0.15"
         },
@@ -51,17 +50,6 @@
           "lib/net7.0/EPPlus.System.Drawing.dll": {
             "assemblyVersion": "6.1.1.0",
             "fileVersion": "6.1.1.0"
-          }
-        }
-      },
-      "JsonPath/1.0.6": {
-        "dependencies": {
-          "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "lib/net35/JsonPath.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -276,13 +264,6 @@
       "sha512": "sha512-lRF5gHYrmkHOOiLMI0t6q8zNYjUrzRgAM5BCXumv5xiqXko8fx3AWI+HCNZfhEqVFGOop+42KfR5GiUcCoyoMw==",
       "path": "epplus.system.drawing/6.1.1",
       "hashPath": "epplus.system.drawing.6.1.1.nupkg.sha512"
-    },
-    "JsonPath/1.0.6": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-kIKGv+FQHL6hEBV3XenKNlIHnfC4I5auk58yn5TIHQvbGJmDuYfYXbfKgQW5vcrgzrgfn26lYZXBOD70/zZaUQ==",
-      "path": "jsonpath/1.0.6",
-      "hashPath": "jsonpath.1.0.6.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/7.0.0": {
       "type": "package",

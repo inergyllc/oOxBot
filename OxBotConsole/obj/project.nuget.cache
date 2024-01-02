@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cpi0NPL7p+EIbARJjbJYbwoCTj5wE8Z+vurHaTHYfr3Q1SniHypa80nz4Occ3ad9JHUvGfF/CikcwrpWer5nhQ==",
+  "dgSpecHash": "5JOAmf+CBV4OXHGxlDxiW21D+uKj8U/tx+xGQ34gA8TqL8gRi7KnNi828Q9qbdKtMBxyDIL3+fb2E0NxcxnEFQ==",
   "success": true,
-  "projectFilePath": "E:\\oxai\\src\\OxBot\\OxbotConsole\\OxBotConsole.csproj",
+  "projectFilePath": "E:\\oxai\\src\\OxBot\\OxBotConsole\\OxBotConsole.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\amramedworkin\\.nuget\\packages\\azure.core\\1.36.0\\azure.core.1.36.0.nupkg.sha512",
     "C:\\Users\\amramedworkin\\.nuget\\packages\\azure.identity\\1.10.4\\azure.identity.1.10.4.nupkg.sha512",

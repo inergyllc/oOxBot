@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "OxBotSvc/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "OpenAI-DotNet": "7.5.0"
+        },
+        "runtime": {
+          "OxBotSvc.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "OpenAI-DotNet/7.5.0": {
+        "runtime": {
+          "lib/net6.0/OpenAI-DotNet.dll": {
+            "assemblyVersion": "7.5.0.0",
+            "fileVersion": "7.5.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OxBotSvc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "OpenAI-DotNet/7.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C9plyHLmnaVdfcXy0HvRfrts0qHCwfy12fZWX9JKqVygr/5IbvsoxQFaJQPRmPkT+YVSLNg7aOmMt+dSc+0aSg==",
+      "path": "openai-dotnet/7.5.0",
+      "hashPath": "openai-dotnet.7.5.0.nupkg.sha512"
+    }
+  }
+}

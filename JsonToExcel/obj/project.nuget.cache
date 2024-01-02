@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "VscJ6/u14GwHBOzJ/HdTo7ebZepkEflL+hwYQmOXP5VybCXIwtC24AU7FgB12VaO4YhjkOMUeba/DyRwoR90Ww==",
+  "dgSpecHash": "cN4NHXKfQmI7TtQUJy8ZDods7NiZ/vzy/Isnhx3IrhytWogGqmH0U2tPTyROSvV8mahxN9km14lZlZEiFl59Cg==",
   "success": true,
   "projectFilePath": "E:\\oxai\\src\\OxBot\\JsonToExcel\\JsonToExcel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\amramedworkin\\.nuget\\packages\\epplus\\7.0.5\\epplus.7.0.5.nupkg.sha512",
     "C:\\Users\\amramedworkin\\.nuget\\packages\\epplus.interfaces\\6.1.1\\epplus.interfaces.6.1.1.nupkg.sha512",
     "C:\\Users\\amramedworkin\\.nuget\\packages\\epplus.system.drawing\\6.1.1\\epplus.system.drawing.6.1.1.nupkg.sha512",
-    "C:\\Users\\amramedworkin\\.nuget\\packages\\jsonpath\\1.0.6\\jsonpath.1.0.6.nupkg.sha512",
     "C:\\Users\\amramedworkin\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\amramedworkin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\amramedworkin\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\7.0.0\\microsoft.extensions.configuration.fileextensions.7.0.0.nupkg.sha512",
@@ -28,16 +27,5 @@
     "C:\\Users\\amramedworkin\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\amramedworkin\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'JsonPath 1.0.6' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
-      "libraryId": "JsonPath",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

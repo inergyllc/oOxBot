@@ -6,7 +6,6 @@ E:\oxai\src\OxBot\JsonToExcel\bin\Debug\net7.0\JsonToExcel.pdb
 E:\oxai\src\OxBot\JsonToExcel\bin\Debug\net7.0\EPPlus.dll
 E:\oxai\src\OxBot\JsonToExcel\bin\Debug\net7.0\EPPlus.Interfaces.dll
 E:\oxai\src\OxBot\JsonToExcel\bin\Debug\net7.0\EPPlus.System.Drawing.dll
-E:\oxai\src\OxBot\JsonToExcel\bin\Debug\net7.0\JsonPath.dll
 E:\oxai\src\OxBot\JsonToExcel\bin\Debug\net7.0\Microsoft.Extensions.Configuration.dll
 E:\oxai\src\OxBot\JsonToExcel\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
 E:\oxai\src\OxBot\JsonToExcel\bin\Debug\net7.0\Microsoft.Extensions.Configuration.FileExtensions.dll

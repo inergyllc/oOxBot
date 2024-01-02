@@ -45,3 +45,9 @@ E:\oxai\src\OxBot\OxBotConsole\obj\Debug\net7.0\refint\OxBotConsole.dll
 E:\oxai\src\OxBot\OxBotConsole\obj\Debug\net7.0\OxBotConsole.pdb
 E:\oxai\src\OxBot\OxBotConsole\obj\Debug\net7.0\OxBotConsole.genruntimeconfig.cache
 E:\oxai\src\OxBot\OxBotConsole\obj\Debug\net7.0\ref\OxBotConsole.dll
+E:\oxai\src\OxBot\OxBotConsole\bin\Debug\net7.0\assets\assistants\oxbot_advisor\oxbot_advisor_instructions.txt
+E:\oxai\src\OxBot\OxBotConsole\bin\Debug\net7.0\assets\assistants\oxbot_advisor\files\geo_flat_listing_master.json
+E:\oxai\src\OxBot\OxBotConsole\bin\Debug\net7.0\assets\assistants\oxbot_advisor\files\geo_flat_listing_min_jsonl.json
+E:\oxai\src\OxBot\OxBotConsole\bin\Debug\net7.0\assets\assistants\oxbot_advisor\files\listing_master.json
+E:\oxai\src\OxBot\OxBotConsole\bin\Debug\net7.0\assets\assistants\oxbot_advisor\files\oxbot_logo.png
+E:\oxai\src\OxBot\OxBotConsole\bin\Debug\net7.0\assets\assistants\oxbot_advisor\files\geo_flat_listing_test_min_jsonl.jsonl

@@ -17,4 +17,25 @@
     <PackageReference Include="OpenAI-DotNet" Version="7.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="assets\assistants\oxbot_advisor\files\geo_flat_listing_master.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\assistants\oxbot_advisor\files\geo_flat_listing_min_jsonl.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\assistants\oxbot_advisor\files\geo_flat_listing_test_min_jsonl.jsonl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\assistants\oxbot_advisor\files\listing_master.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\assistants\oxbot_advisor\files\oxbot_logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\assistants\oxbot_advisor\oxbot_advisor_instructions.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

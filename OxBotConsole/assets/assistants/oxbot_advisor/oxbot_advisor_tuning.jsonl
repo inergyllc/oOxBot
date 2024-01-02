@@ -1,0 +1,40 @@
+{
+  "prompt": "What kind of vendor for specialized drilling equipment?",
+  "completion": "{\"category\": \"Drilling Equipment Suppliers\"}"
+}
+{
+  "prompt": "What vendors are available locally to handle seismic surveys?",
+  "completion": "{\"vendors\": [{\"name\": \"GeoSurveys Inc.\", \"description\": \"Seismic and geological survey specialists\", \"website\": \"geosurveys.com\", \"phone\": \"432-555-0123\", \"email\": \"contact@geosurveys.com\"}]}"
+}
+{
+  "prompt": "Give me the data on PetroTech Solutions",
+  "completion": "{\"vendor\": {\"name\": \"PetroTech Solutions\", \"description\": \"Advanced drilling technology and services\", \"website\": \"petrotechsol.com\", \"phone\": \"432-555-0145\", \"email\": \"info@petrotechsol.com\"}}"
+}
+{
+  "prompt": "What kind of vendor for pipeline maintenance?",
+  "completion": "{\"category\": \"Pipeline Services and Maintenance\"}"
+}
+{
+  "prompt": "What vendors are available locally to handle oil spill cleanup?",
+  "completion": "{\"vendors\": [{\"name\": \"CleanSpill Services\", \"description\": \"Emergency oil spill response team\", \"website\": \"cleanspill.com\", \"phone\": \"432-555-0189\", \"email\": \"emergency@cleanspill.com\"}]}"
+}
+{
+  "prompt": "Give me the data on Midland Valves and Supply",
+  "completion": "{\"vendor\": {\"name\": \"Midland Valves and Supply\", \"description\": \"Provider of industrial valves and supply chain services\", \"website\": \"midlandvalve.com\", \"phone\": \"432-555-0177\", \"email\": \"sales@midlandvalve.com\"}}"
+}
+{
+  "prompt": "What kind of vendor for hydraulic fracturing services?",
+  "completion": "{\"category\": \"Hydraulic Fracturing Services\"}"
+}
+{
+  "prompt": "What vendors are available locally to handle equipment rental?",
+  "completion": "{\"vendors\": [{\"name\": \"Permian Equipment Rentals\", \"description\": \"Heavy equipment rental for oilfields\", \"website\": \"permianrentals.com\", \"phone\": \"432-555-0133\", \"email\": \"rent@permianrentals.com\"}]}"
+}
+{
+  "prompt": "Give me the data on Basin Drilling",
+  "completion": "{\"vendor\": {\"name\": \"Basin Drilling\", \"description\": \"Drilling services for the Permian Basin\", \"website\": \"basindrilling.com\", \"phone\": \"432-555-0199\", \"email\": \"contact@basindrilling.com\"}}"
+}
+{
+  "prompt": "What kind of vendor for environmental compliance?",
+  "completion": "{\"category\": \"Environmental Compliance and Consulting\"}"
+}
